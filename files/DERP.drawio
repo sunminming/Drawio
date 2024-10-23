@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.0">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.1">
   <diagram name="第 1 页" id="boaGlC_A0SEjg5snhlWo">
-    <mxGraphModel dx="2074" dy="2267" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1430" dy="1926" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -151,7 +151,7 @@
         <mxCell id="HHnwj9ZDeLS21Np8BCJO-71" value="&lt;font style=&quot;font-size: 18px;&quot; face=&quot;Times New Roman&quot;&gt;Used For a Reconnect&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="HHnwj9ZDeLS21Np8BCJO-72" vertex="1">
           <mxGeometry x="200" y="410" width="220" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="oFC3k6cB1DwRkjMcpZ91-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="HHnwj9ZDeLS21Np8BCJO-130" target="oFC3k6cB1DwRkjMcpZ91-1">
+        <mxCell id="oFC3k6cB1DwRkjMcpZ91-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" parent="1" source="HHnwj9ZDeLS21Np8BCJO-130" target="oFC3k6cB1DwRkjMcpZ91-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="HHnwj9ZDeLS21Np8BCJO-130" value="&lt;font face=&quot;Times New Roman&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;derpWriteChanForRegion&lt;/span&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -232,29 +232,65 @@
         <mxCell id="HHnwj9ZDeLS21Np8BCJO-159" value="&lt;font face=&quot;Times New Roman&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;If UDP is Valid, would not Call SendAddr&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="220" y="650" width="320" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="oFC3k6cB1DwRkjMcpZ91-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="oFC3k6cB1DwRkjMcpZ91-1" target="HHnwj9ZDeLS21Np8BCJO-132">
+        <mxCell id="oFC3k6cB1DwRkjMcpZ91-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="oFC3k6cB1DwRkjMcpZ91-1" target="HHnwj9ZDeLS21Np8BCJO-132" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oFC3k6cB1DwRkjMcpZ91-1" value="&lt;font style=&quot;font-size: 18px;&quot; face=&quot;Times New Roman&quot;&gt;derphttp.NewRegionClient&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="oFC3k6cB1DwRkjMcpZ91-1" value="&lt;font style=&quot;font-size: 18px;&quot; face=&quot;Times New Roman&quot;&gt;derphttp.NewRegionClient&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="780" y="725" width="160" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="oFC3k6cB1DwRkjMcpZ91-4" value="&lt;font style=&quot;font-size: 18px;&quot; face=&quot;Times New Roman&quot;&gt;DERP Client&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1710" y="400" width="150" height="30" as="geometry" />
+        <mxCell id="oFC3k6cB1DwRkjMcpZ91-4" value="&lt;font style=&quot;font-size: 18px;&quot; face=&quot;Times New Roman&quot;&gt;DERP Client&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1700" y="400" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="oFC3k6cB1DwRkjMcpZ91-5" value="&lt;font style=&quot;font-size: 18px;&quot; face=&quot;Times New Roman&quot;&gt;DERP Server&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="oFC3k6cB1DwRkjMcpZ91-5" value="&lt;font style=&quot;font-size: 18px;&quot; face=&quot;Times New Roman&quot;&gt;DERP Server&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="2210" y="400" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="oFC3k6cB1DwRkjMcpZ91-6" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="oFC3k6cB1DwRkjMcpZ91-6" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1784.5" y="430" as="sourcePoint" />
-            <mxPoint x="1784.5" y="1120" as="targetPoint" />
+            <mxPoint x="1770" y="430" as="sourcePoint" />
+            <mxPoint x="1770" y="1120" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="oFC3k6cB1DwRkjMcpZ91-7" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="oFC3k6cB1DwRkjMcpZ91-7" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="2269.5" y="430" as="sourcePoint" />
             <mxPoint x="2269.5" y="1120" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="egJeK7IyAdFAndKhT8CJ-1" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1770" y="510" as="sourcePoint" />
+            <mxPoint x="2270" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="egJeK7IyAdFAndKhT8CJ-2" value="&lt;font style=&quot;font-size: 18px;&quot; face=&quot;Times New Roman&quot;&gt;Get https://{node ip}:443/derp&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1540" y="490" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="egJeK7IyAdFAndKhT8CJ-3" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2270" y="580" as="sourcePoint" />
+            <mxPoint x="1770" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="egJeK7IyAdFAndKhT8CJ-4" value="&lt;font style=&quot;font-size: 18px;&quot; face=&quot;Times New Roman&quot;&gt;HTTP Code = 101(SwitchProtocol)&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2270" y="560" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="egJeK7IyAdFAndKhT8CJ-5" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2270" y="640" as="sourcePoint" />
+            <mxPoint x="1770" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="egJeK7IyAdFAndKhT8CJ-6" value="&lt;font face=&quot;Times New Roman&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;Send Server Public With&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;; font-size: 18px;&quot;&gt;DERP Protocol&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2270" y="620" width="310" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="egJeK7IyAdFAndKhT8CJ-7" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1770" y="695" as="sourcePoint" />
+            <mxPoint x="2270" y="725" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="egJeK7IyAdFAndKhT8CJ-8" value="&lt;font face=&quot;Times New Roman&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;Send Client Info With&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;; font-size: 18px;&quot;&gt;DERP Protocol&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1460" y="680" width="310" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
